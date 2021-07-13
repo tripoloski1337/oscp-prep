@@ -20,7 +20,7 @@ selanjutnya tinggal upload, listen, dan execute.
 # whoami /priv
 
 kalo SeImpersonatePrivilege enabled berarti bisa pakai lonley potato https://github.com/decoder-it/lonelypotato
-
+atau bisa coba pakai https://github.com/Re4son/Churrasco/ (ada exe)
 enumnya bisa pakai https://github.com/rasta-mouse/Sherlock mirip linpeas
 
 # Download file using powershell

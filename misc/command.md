@@ -47,3 +47,15 @@ cracking zip
 login with user pass mongodb
 
     mongo localhost:27017/scheduler -u mark -p 5AYRft73VtFpc84k
+
+# webdav cek
+
+    davtest -url 10.10.10.15
+
+# creating local web server PHP
+
+    sudo php -S 10.10.14.22:84  
+
+# creating local web server python
+
+    python3 -m http.server
