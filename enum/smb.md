@@ -6,6 +6,10 @@
 
     smbclient //10.10.10.134/Backups -U ""
 
+# SMB cliant 
+
+    smbclient //10.10.10.100/Replication -U "%"
+
 # Mount SMB vhd to /mnt
 
     root@kali:~/Desktop/HTB/boxes/bastion# mkdir /mnt/L4mpje-PC

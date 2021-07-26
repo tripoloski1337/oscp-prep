@@ -13,3 +13,7 @@
 # cek process
 
     tasklist /v | findstr 2820
+
+# Enum4linux
+
+    enum4linux -a 10.10.10.100

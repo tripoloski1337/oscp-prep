@@ -30,3 +30,15 @@ getting reverse shell from shellshock vuln
 or 
 
     nmap -sU --top-ports 200 -oA scans/nmap-udptop200 10.10.10.21  
+
+# scan all port
+
+    nmap -p- --min-rate 10000 -oA scans/nmap-alltcp 10.10.10.160
+
+# scan nmap 
+
+    nmap -sT -p- --min-rate 5000 -oA nmap/alltcp 10.10.10.76
+
+# scan for several ports
+
+    nmap -sV -sC -p 79,111,22022,65258 -oA nmap/scripts 10.10.10.76
