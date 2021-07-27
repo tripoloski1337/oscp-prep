@@ -1,3 +1,6 @@
+sensitive file ada disini: `smb: \active.htb\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Preferences\Groups\> get Groups.xml``
+                                                                     
+
 # SMBD client liat share
 
     smbclient --list //10.10.10.134/ -U ""
@@ -21,3 +24,10 @@
     root@kali:~/Desktop/HTB/boxes/bastion# mount -r /dev/nbd0p1 /mnt/vhd
     root@kali:~/Desktop/HTB/boxes/bastion#
 
+# SMBMAP
+
+    smbmap -H 10.10.10.100 -d active.htb -u SVC_TGS -p GPPstillStandingStrong2k18
+
+# SMBCLIENT with password 
+
+    smbclient //10.10.10.100/Users -U "SVC_TGS" -p GPPstillStandingStrong2k18
